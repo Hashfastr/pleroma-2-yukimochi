@@ -40,5 +40,5 @@ with open('backup.json', 'r') as f:
         for line in key:
             new_data['private-key'] = new_data['private-key'] + line
 
-    with open('new-pleroma.json', 'w') as f2:
+    with open('new-pleroma.jsonld', 'w') as f2:
         f2.write(json.dumps(new_data, indent=4))
