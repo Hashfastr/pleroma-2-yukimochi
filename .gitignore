@@ -1,2 +1,6 @@
 new-yuki.json
 relay.jsonld
+actor.pem
+backup.json
+new-pleroma.json
+relay-example.jsonld
